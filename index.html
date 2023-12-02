@@ -6,6 +6,14 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <!-- Google Fonts -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400&family=Lexend:wght@300;400;600&display=swap"
+    rel="stylesheet">
+
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -20,21 +28,21 @@
   <!-- Main Navigation -->
   <nav class="navbar navbar-expand-lg bg-body-tertiary p-5">
     <div class="container-sm">
-      <a class="navbar-brand" href="#">Richard Llewellyn</a>
+      <a class="navbar-brand fs-3 text-uppercase" href="#">Richard Llewellyn</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse justify-content-end">
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="#work">Work</a>
+            <a class="nav-link ps-lg-5 text-uppercase" href="#work">Work</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#about">About</a>
+            <a class="nav-link ps-lg-5 text-uppercase" href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
+            <a class="nav-link ps-lg-5 text-uppercase" href="#contact">Contact</a>
           </li>
         </ul>
       </div>
@@ -43,19 +51,19 @@
 
   <!-- Hero/Jumbotron Section -->
 
-  <header class="p-5 mb-4 bg-body-secondary ">
-    <div class="container-sm py-5">
+  <header class="p-5 bg-body-secondary ">
+    <div class="container-sm py-3">
 
-      <div class="row gx-5 d-flex flex-wrap align-items-center flex-sm-column-reverse flex-lg-row">
-        <div class="col-sm-12 col-lg-6">
+      <div class="row gx-5 d-flex flex-wrap align-items-center flex-column-reverse flex-lg-row">
+        <div class="col-sm-12 col-lg-6 py-3">
           <h1 class="display-5 fw-bold">Bootstrap Portfolio</h1>
-          <p class="col-md-8 fs-4">Using a series of utilities, you can create this jumbotron, just like the one in
+          <p class="col-md-8 fs-5">Using a series of utilities, you can create this jumbotron, just like the one in
             previous
             versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
           <a class="btn btn-primary btn-lg" href="#work" type="button">View Work</a>
         </div>
 
-        <div class="col-sm-12 col-lg-6 d-flex justify-content-center">
+        <div class="col-sm-12 col-lg-6 py-3 d-flex justify-content-center">
           <img src="./assets/images/profile-picture.jpeg" class="img-fluid rounded-circle" alt="Profile Picture">
         </div>
       </div>
@@ -63,111 +71,115 @@
     </div>
   </header>
 
-  <!-- Work Section -->
+  <main class="my-5">
 
-  <section id="work" class="container-sm d-flex flex-wrap">
-    <aside class="col-sm-12 col-md-12 col-lg-3">
-      <h2>Work</h2>
-    </aside>
+    <!-- Work Section -->
 
-    <section class="col-sm-12 col-md-12 col-lg-9">
-      <div class="row">
-        <div class="col">
-          <div class="card mb-3">
-            <img src="https://via.placeholder.com/1280x800" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a brief overview of the work.</p>
-              <button class="btn btn-dark" type="button">View Project</button>
-              <p class="card-text"><small class="text-body-secondary">Built using...</small></p>
+    <section id="work" class="container-sm py-5 d-flex flex-wrap">
+      <aside class="col-sm-12 col-md-12 col-lg-3">
+        <h2>Work</h2>
+      </aside>
+
+      <section class="col-sm-12 col-md-12 col-lg-9">
+        <div class="row">
+          <div class="col">
+            <div class="card mb-4">
+              <img src="https://via.placeholder.com/1280x800" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h3 class="card-title">Card title</h3>
+                <p class="card-text">This is a brief overview of the work.</p>
+                <button class="btn btn-dark" type="button">View Project</button>
+                <p class="card-text"><small class="text-body-secondary">Built using...</small></p>
+              </div>
             </div>
-          </div>
 
+          </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col">
-          <div class="card mb-3">
-            <img src="https://via.placeholder.com/600x400" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a brief overview of the work.</p>
-              <button class="btn btn-dark" type="button">View Project</button>
-              <p class="card-text"><small class="text-body-secondary">Built using...</small></p>
+        <div class="row">
+          <div class="col">
+            <div class="card mb-4">
+              <img src="https://via.placeholder.com/600x400" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h3 class="card-title">Card title</h3>
+                <p class="card-text">This is a brief overview of the work.</p>
+                <button class="btn btn-dark" type="button">View Project</button>
+                <p class="card-text"><small class="text-body-secondary">Built using...</small></p>
+              </div>
             </div>
-          </div>
 
+          </div>
+          <div class="col">
+            <div class="card mb-4">
+              <img src="https://via.placeholder.com/600x400" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h3 class="card-title">Card title</h3>
+                <p class="card-text">This is a brief overview of the work.</p>
+                <button class="btn btn-dark" type="button">View Project</button>
+                <p class="card-text"><small class="text-body-secondary">Built using...</small></p>
+              </div>
+            </div>
+
+          </div>
         </div>
-        <div class="col">
-          <div class="card mb-3">
-            <img src="https://via.placeholder.com/600x400" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a brief overview of the work.</p>
-              <button class="btn btn-dark" type="button">View Project</button>
-              <p class="card-text"><small class="text-body-secondary">Built using...</small></p>
+        <div class="row">
+          <div class="col">
+            <div class="card mb-4">
+              <img src="https://via.placeholder.com/600x400" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h3 class="card-title">Card title</h3>
+                <p class="card-text">This is a brief overview of the work.</p>
+                <button class="btn btn-dark" type="button">View Project</button>
+                <p class="card-text"><small class="text-body-secondary">Built using...</small></p>
+              </div>
             </div>
-          </div>
 
+          </div>
+          <div class="col">
+            <div class="card mb-4">
+              <img src="https://via.placeholder.com/600x400" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h3 class="card-title">Card title</h3>
+                <p class="card-text">This is a brief overview of the work.</p>
+                <button class="btn btn-dark" type="button">View Project</button>
+                <p class="card-text"><small class="text-body-secondary">Built using...</small></p>
+              </div>
+            </div>
+
+          </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col">
-          <div class="card mb-3">
-            <img src="https://via.placeholder.com/600x400" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a brief overview of the work.</p>
-              <button class="btn btn-dark" type="button">View Project</button>
-              <p class="card-text"><small class="text-body-secondary">Built using...</small></p>
-            </div>
-          </div>
+      </section>
+    </section>
 
+    <!-- Skills & About Section -->
+
+    <section id="about" class=" py-5 container-sm">
+      <h2>About Me</h2>
+      <div class="row align-items-md-stretch">
+        <div class="col-md-6">
+          <div class="h-100 p-5 text-bg-dark ">
+            <h3>Skills</h3>
+            <ul>
+              <li>Skill 1</li>
+              <li>Skill 2</li>
+              <li>Skill 3</li>
+              <li>Skill 4</li>
+              <li>Skill 5</li>
+            </ul>
+          </div>
         </div>
-        <div class="col">
-          <div class="card mb-3">
-            <img src="https://via.placeholder.com/600x400" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a brief overview of the work.</p>
-              <button class="btn btn-dark" type="button">View Project</button>
-              <p class="card-text"><small class="text-body-secondary">Built using...</small></p>
-            </div>
-          </div>
+        <div class="col-md-6">
+          <div class="h-100 p-5 text-bg-dark ">
+            <h3>About</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis dignissimos ipsa aut eius at incidunt
+              eligendi non nulla dolorem, porro, corporis nobis. Ut accusamus voluptate dolore dolores? Accusantium,
+              cupiditate optio?</p>
 
+          </div>
         </div>
       </div>
     </section>
-  </section>
 
-  <!-- Skills & About Section -->
-
-  <section id="about" class="container-sm">
-    <h2>About Me</h2>
-    <div class="row align-items-md-stretch">
-      <div class="col-md-6">
-        <div class="h-100 p-5 text-bg-dark ">
-          <h3>Skills</h3>
-          <ul>
-            <li>Skill 1</li>
-            <li>Skill 2</li>
-            <li>Skill 3</li>
-            <li>Skill 4</li>
-            <li>Skill 5</li>
-          </ul>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <div class="h-100 p-5 text-bg-dark ">
-          <h3>About</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis dignissimos ipsa aut eius at incidunt
-            eligendi non nulla dolorem, porro, corporis nobis. Ut accusamus voluptate dolore dolores? Accusantium,
-            cupiditate optio?</p>
-
-        </div>
-      </div>
-    </div>
-  </section>
+  </main>
 
   <!-- Footer Section -->
 

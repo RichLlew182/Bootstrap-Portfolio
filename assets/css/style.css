@@ -1,0 +1,20 @@
+:root {
+
+  --headingFOnt: 'Lexend', sans-serif;
+  --bodyFont: 'DM Sans', sans-serif;
+
+}
+
+body {
+  font-family: var(--bodyFont);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--headingFOnt);
+  letter-spacing: 2px;
+}
