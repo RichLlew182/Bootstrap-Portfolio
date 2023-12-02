@@ -1,6 +1,6 @@
 :root {
 
-  --headingFOnt: 'Lexend', sans-serif;
+  --headingFont: 'Lexend', sans-serif;
   --bodyFont: 'DM Sans', sans-serif;
 
 }
@@ -15,5 +15,11 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: var(--headingFOnt);
+  font-family: var(--headingFont);
+}
+
+/* Custom Classes */
+
+.heading {
+  font-family: var(--headingFont);
 }
