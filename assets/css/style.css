@@ -26,6 +26,10 @@ h6 {
   font-family: var(--headingFont);
 }
 
+h2 {
+  color: #673fd7;
+}
+
 /*Boostrap Overrides*/
 
 .btn-primary {
