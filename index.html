@@ -6,16 +6,360 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <!-- Google Fonts -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400&family=Lexend:wght@300;400;600&display=swap"
+    rel="stylesheet">
+
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <!-- My Custom CSS -->
   <link href="./assets/css/style.css" rel="stylesheet">
 
-  <title>Title</title>
+  <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+
+  <title>Richard Llewellyn Bootstrap Portfolio</title>
 </head>
 
 <body>
+
+  <!-- Header-->
+
+  <header id="header" class="px-3 px-sm-0 pb-4 pb-lg-5 pt-0 bg-primary text-white">
+    <!-- Main Navigation -->
+    <nav class="navbar navbar-expand-lg px-0 py-3 py-md-5">
+      <div class="container-sm">
+        <a class="navbar-brand fs-3 text-uppercase heading link-light" href="#">RL.dev</a>
+        <button class="navbar-toggler shadow-none border-0 px-0" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon invert-100"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link ps-lg-5 text-uppercase d-flex justify-content-end link-light ls" href="#work">Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ps-lg-5 text-uppercase d-flex justify-content-end link-light ls"
+                href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ps-lg-5 text-uppercase d-flex justify-content-end link-light ls"
+                href="#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ps-lg-5 text-uppercase d-flex justify-content-end link-light ls"
+                href="https://docs.google.com/document/d/12iFlt90hy_ZPoCiFkCl2keMMDUWpoqenzc0Q0lw29pM/"
+                target="_blank">C.V</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Jumbotron -->
+
+    <div class="container-sm py-0 py-sm-3">
+
+      <div class="row gx-5 d-flex flex-wrap align-items-center flex-column-reverse flex-lg-row">
+        <div class="col-sm-12 col-lg-6 py-4 py-lg-0">
+          <h1 class="display-5 fw-bold">Richard Llewellyn</h1>
+          <p class=" col-lg-10 col-xl-8 fs-5">A front-end developer with a knack for turning ideas into interactive and
+            visually appealing digital experiences.</p>
+          <div>
+            <a class="btn btn-info rounded-0 py-3 px-4 text-uppercase fs-6 ls me-4 my-2" href="#work" type="button">View
+              Work</a>
+            <a class="btn btn-outline-light rounded-0 py-3 px-4 text-uppercase fs-6 ls my-2" href="#contact"
+              type="button">Get in touch</a>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-lg-6 py-4  py-lg-0 d-flex justify-content-center">
+          <img src="./assets/images/profile-picture.jpeg" class="img-fluid rounded-circle" alt="Profile Picture">
+        </div>
+      </div>
+
+    </div>
+  </header>
+
+  <main class="d-flex flex-column my-5 row-gap-5">
+
+    <!-- Work Section -->
+
+    <section id="work" class="px-3 px-sm-0">
+      <div class="container-sm pt-3 pt-md-5 d-flex flex-wrap">
+        <aside class="col-sm-12 col-md-12 col-lg-3 pe-5">
+          <h2 class="display-5 text-primary sticky-top fw-bold mb-4 mb-lg-0">Work</h2>
+        </aside>
+
+        <section id="Portfolio" class="col-sm-12 col-md-12 col-lg-9">
+          <div class="row">
+            <div class="col">
+              <div class="card border-0 bg-light rounded-0 mb-4">
+                <a href="https://richllew182.github.io/horiseon-code-refactor/" target="_blank" class="portfolio-link">
+                  <img src="./assets/images/project-1-horiseon.jpeg"
+                    class="card-img-top rounded-0 object-fit-cover showcase"
+                    alt="A team gathered around a boardroom discussing ideas">
+                </a>
+                <div class="card-body p-4">
+                  <h3 class="card-title">Horiseon Code Refactor</h3>
+                  <p class="card-text text-body-tertiary">Week 1 Challenge to Refactor code for the Horiseon Landing
+                    page.</p>
+                  <a href="https://richllew182.github.io/horiseon-code-refactor/" target="blank"
+                    class="btn btn-secondary rounded-0 py-3 px-4 text-uppercase fs-6 ls border-0" type="button">View
+                    Project</a>
+                  <div class="explainer"><span class="badge pill rounded-0 p-2 text-bg-info">Built with HTML &
+                      CSS</span></div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12 col-md-6">
+              <div class="card border-0 bg-light rounded-0 mb-4">
+                <a href="#" class="portfolio-link">
+                  <img src="./assets/images/portfolio-2.jpeg"
+                    class="card-img-top rounded-0 object-fit-cover portfolio-image" alt="A colourful LED Wall">
+                </a>
+                <div class="card-body p-4">
+                  <h3 class="card-title">LED Wall</h3>
+                  <p class="card-text text-body-tertiary">Crafting an LED Wall with Node.js Brilliance.</p>
+                  <a href="#" class="btn btn-secondary rounded-0 py-3 px-4 text-uppercase fs-6 ls border-0 "
+                    type="button">View
+                    Project</a>
+                  <div class="explainer"><span class="badge pill rounded-0 p-2 text-bg-info">Built with
+                      Node.js/IoT</span></div>
+                </div>
+              </div>
+
+            </div>
+            <div class="col-sm-12 col-md-6">
+              <div class="card border-0 bg-light rounded-0 mb-4">
+                <a href="#" class="portfolio-link">
+                  <img src="./assets/images/portfolio-3.png"
+                    class="card-img-top rounded-0 object-fit-cover portfolio-image"
+                    alt="A calclator and laptop on a desk">
+                </a>
+                <div class="card-body p-4">
+                  <h3 class="card-title">Calculator</h3>
+                  <p class="card-text text-body-tertiary">A calculator constructed using React.
+                  </p>
+                  <a href="#" class="btn btn-secondary rounded-0 py-3 px-4 text-uppercase fs-6 ls border-0"
+                    type="button">View
+                    Project</a>
+                  <div class="explainer"><span class="badge pill rounded-0 p-2 text-bg-info">Built with React,
+                      Javascript and CSS</span></div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12 col-md-6">
+              <div class="card border-0 bg-light rounded-0 mb-4 mb-md-0">
+                <a href="#" class="portfolio-link">
+                  <img src="./assets/images/portfolio-4b.jpg"
+                    class="card-img-top rounded-0 object-fit-cover portfolio-image"
+                    alt="A Rubix cube with semi transparent cubes">
+                </a>
+                <div class="card-body p-4">
+                  <h3 class="card-title">Pastel Puzzles</h3>
+                  <p class="card-text text-body-tertiary">A visually delightful puzzle-solving experience.</p>
+                  <a href="#" class="btn btn-secondary rounded-0 py-3 px-4 text-uppercase fs-6 ls border-0 "
+                    type="button">View
+                    Project</a>
+                  <div class="explainer"><span class="badge pill rounded-0 p-2 text-bg-info">Built with MERN
+                      Stack</span></div>
+                </div>
+              </div>
+
+            </div>
+            <div class="col-sm-12 col-md-6">
+              <div class="card border-0 bg-light rounded-0 mb-0">
+                <a href="https://richllew182.github.io/richard-llewellyn-portfolio/" target="_blank"
+                  class="portfolio-link">
+                  <img src="./assets/images/portfolio-5b.jpeg"
+                    class="card-img-top rounded-0 object-fit-cover portfolio-image"
+                    alt="A slighly open macbook in a dark room">
+                </a>
+                <div class="card-body p-4">
+                  <h3 class="card-title">First Portfolio</h3>
+                  <p class="card-text text-body-tertiary">My first attempt at a portfolio landing page.</p>
+                  <a href="https://richllew182.github.io/richard-llewellyn-portfolio/" target="_blank"
+                    class="btn btn-secondary rounded-0 py-3 px-4 text-uppercase fs-6 ls border-0 " type="button">View
+                    Project</a>
+                  <div class="explainer"><span class="badge pill rounded-0 p-2 text-bg-info">Built with HTML &
+                      CSS</span></div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </section>
+      </div>
+
+    </section>
+
+    <!-- Skills & About Section -->
+
+    <section id="about" class="px-3 px-sm-0">
+      <div class="container-sm pt-3 pt-md-5 d-flex flex-wrap">
+        <aside class="col-sm-12 col-md-12 col-lg-3 pe-5">
+          <h2 class="display-5 text-primary fw-bold mb-4 mb-lg-0">About Me</h2>
+        </aside>
+        <section id="aboutAndSkills" class="col-sm-12 col-md-12 col-lg-9">
+          <div class="row align-items-md-stretch">
+
+            <div class="col-lg-12 col-xl-6 pe-xl-0">
+              <div class="h-100 p-4 p-md-5 bg-info">
+                <h3 class="mb-4">About</h3>
+                <p>Hi there! I'm Richard, a Graphic Designer and soon-to-be Front End Developer living and working in
+                  London.</p>
+                <p>
+                  After several years in the design industry I am now looking for new challenges and opportunities as a
+                  Developer, so I have created this website to demonstrate some of my work.
+                </p>
+                <p>
+                  If you like what you see please get in touch below.</p>
+
+                <ul class="list-group">
+                  <li class="list-group-item bg-transparent border-0 px-0"><a class=" text-decoration-none text-dark"
+                      href=""><i class="fa-solid fa-phone me-1"></i> Call
+                      Me</a></li>
+                  <li class="list-group-item bg-transparent border-0 px-0"><a class=" text-decoration-none text-dark"
+                      href="mailto:richard.lee.llewellyn@gmail.com"><i class="fa-regular fa-envelope me-1"></i> Email
+                      Me</a>
+                  </li>
+                </ul>
+
+              </div>
+            </div>
+            <div class="col-lg-12 col-xl-6 ps-xl-0">
+              <div class="h-100 p-4 p-md-5 bg-light ">
+                <h3 class="mb-4">Skills</h3>
+                <ul class="list-group">
+                  <li class="list-group-item d-flex gap-3 py-3 align-items-center bg-light">
+                    <img src="./assets/images/html-icon.png" alt="HTML5 Icon" width="32" height="32"
+                      class="rounded-circle flex-shrink-0">
+                    <div class="d-flex gap-2 w-100 justify-content-between">
+                      <h6 class="mb-0">HTML5</h6>
+                    </div>
+                  </li>
+
+                  <li class="list-group-item d-flex gap-3 py-3 align-items-center bg-light">
+                    <img src="./assets/images/css-icon.png" alt="CSS3 Icon" width="32" height="32"
+                      class="rounded-circle flex-shrink-0">
+                    <div class="d-flex gap-2 w-100 justify-content-between">
+                      <h6 class="mb-0">CSS3</h6>
+                    </div>
+                  </li>
+
+                  <li class="list-group-item d-flex gap-3 py-3 align-items-center bg-light">
+                    <img src="./assets/images/js-icon.png" alt="Javascript Icon" width="32" height="32"
+                      class="rounded-circle flex-shrink-0">
+                    <div class="d-flex gap-2 w-100 justify-content-between">
+                      <h6 class="mb-0">JavaScript</h6>
+                    </div>
+                  </li>
+
+                  <li class="list-group-item d-flex gap-3 py-3 align-items-center bg-light">
+                    <img src="./assets/images/react.png" alt="React Icon" width="32" height="32"
+                      class="rounded-circle flex-shrink-0">
+                    <div class="d-flex gap-2 w-100 justify-content-between">
+                      <h6 class="mb-0">React</h6>
+                    </div>
+                  </li>
+
+                  <li class="list-group-item d-flex gap-3 py-3 align-items-center bg-light">
+                    <img src="./assets/images/node.png" alt="Node Icon" width="32" height="32"
+                      class="rounded-circle flex-shrink-0">
+                    <div class="d-flex gap-2 w-100 justify-content-between">
+                      <h6 class="mb-0">Node.js</h6>
+                    </div>
+                  </li>
+
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+
+    <section id="contact" class="px-3 px-sm-0">
+      <div class="container-sm py-3 py-md-5 d-flex flex-wrap flex-column flex-md-row">
+        <aside class="col-sm-12 col-md-12 col-lg-3 pe-5">
+          <h2 class="display-5 text-primary fw-bold mb-4 mb-lg-0">Get in Touch</h2>
+        </aside>
+        <section id="contactForm" class="col-sm-12 col-md-12 col-lg-9 ">
+          <form>
+            <div class="form-group mb-4">
+              <label for="InputEmail1">Name</label>
+              <input type="name" class="form-control mt-2 p-3 rounded-0 bg-light border-0" id="InputName1"
+                aria-describedby="emailHelp" placeholder="Enter name">
+            </div>
+            <div class="form-group mb-4">
+              <label for="InputEmail1">Email address</label>
+              <input type="email" class="form-control mt-2 p-3 rounded-0 bg-light border-0" id="InputEmail1"
+                aria-describedby="emailHelp" placeholder="Enter email">
+            </div>
+            <div class="form-group mb-4">
+              <label for="exampleFormControlTextarea1">Your Message</label>
+              <textarea class="form-control mt-2 p-3 rounded-0 bg-light border-0" id="exampleFormControlTextarea1"
+                rows="3"></textarea>
+            </div>
+            <button type="submit"
+              class="btn btn-secondary rounded-0 py-3 px-4 text-uppercase fs-6 ls border-0">Submit</button>
+          </form>
+        </section>
+      </div>
+
+    </section>
+
+  </main>
+
+  <!-- Footer Section -->
+
+  <footer class="footer px-3 px-sm-0 bg-primary text-white">
+    <div class="container-sm py-5 py-md-5">
+      <div class="row flex-column-reverse flex-md-row">
+        <div class="col-md-3 d-flex justify-content-center justify-content-md-start align-items-center">© Richard
+          Llewellyn 2023</div>
+        <div class=" col-md-9 d-flex justify-content-center justify-content-md-end">
+          <ul class="nav align-items-center justify-content-center justify-content-md-end pb-3 pb-md-0">
+            <li class="nav-item">
+              <a class="nav-link text-reset text-decoration-none link-light ps-lg-5"
+                href="https://github.com/RichLlew182" target="_blank"><i
+                  class="fa-brands fa-github text-info me-2"></i>GitHub</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-reset text-decoration-none link-light  ps-lg-5"
+                href="https://www.linkedin.com/in/richard-llewellyn-9073862b/" target="_blank"><i
+                  class="fa-brands fa-linkedin text-info me-2"></i>Linkedin</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-reset text-decoration-none link-light   ps-lg-5"
+                href="https://docs.google.com/document/d/12iFlt90hy_ZPoCiFkCl2keMMDUWpoqenzc0Q0lw29pM/"
+                target="_blank"><i class="fa-solid fa-file-lines text-info me-2"></i>C.V</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-reset text-decoration-none link-light  ps-lg-5" href="#header"><i
+                  class="fa-solid fa-arrow-up text-info me-2"></i>Back to Top</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </footer>
 
   <!-- Optional JavaScript -->
   <!-- Popper.js, then Bootstrap JS -->
@@ -25,6 +369,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
     integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous">
   </script>
+  <script src="https://kit.fontawesome.com/61c9765a70.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
