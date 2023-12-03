@@ -13,7 +13,6 @@
   --bs-dark-rgb: 4, 8, 15;
   --bs-primary-rgb: 103, 63, 205;
   --bs-info-rgb: 194, 232, 18;
-
 }
 
 /* Fonts */
@@ -73,6 +72,16 @@ h6,
 
 .sticky-top {
   top: 25px;
+}
+
+.link-light {
+  -webkit-transition: ease .3s;
+  -o-transition: ease .3s;
+  transition: ease .3s;
+}
+
+.link-light:hover {
+  opacity: .7;
 }
 
 /* Custom Classes */
