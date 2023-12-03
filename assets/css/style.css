@@ -10,8 +10,9 @@
   --bs-body-bg: #f5f4fc;
   --bs-light-rgb: 255, 255, 255;
   --bg-light: #ffffff;
+  --bs-dark-rgb: 46, 40, 42;
   --bs-primary-rgb: 103, 63, 205;
-  --bs-secondary-rgb: 69, 182, 156;
+  --bs-info-rgb: 194, 232, 18;
 
 }
 
@@ -30,7 +31,7 @@ h6 {
 
 /*Boostrap Overrides*/
 
-.btn-primary {
+.btn-secondary {
   background-image: -o-linear-gradient(357.12deg, #455EB5 9.16%, #5643CC 43.89%, #673FD7 64.72%);
   background-image: linear-gradient(92.88deg, #455EB5 9.16%, #5643CC 43.89%, #673FD7 64.72%);
   -webkit-transition: all .3s;
@@ -40,9 +41,10 @@ h6 {
   --bs-btn-hover-border-color: #4957bb;
 }
 
-.btn-primary:hover {
-  -webkit-box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
-  box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
+.btn:hover,
+.btn-secondary:hover {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 1px 30px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 1px 30px;
   -webkit-transition-duration: .3s;
   -o-transition-duration: .3s;
   transition-duration: .3s;
@@ -55,8 +57,15 @@ h6 {
   --bs-btn-hover-border-color: #fff;
 }
 
-.text-bg-info {
-  background-color: #C2E812 !important;
+.btn-info {
+  --bs-btn-bg: #c2e812;
+  --bs-btn-border-color: #c2e812;
+  --bs-btn-hover-bg: #d8fe2b;
+  --bs-btn-hover-border-color: #c2e812;
+  --bs-btn-active-bg: #c2e812;
+  --bs-btn-active-border-color: #c2e812;
+  --bs-btn-disabled-bg: #c2e812;
+  --bs-btn-disabled-border-color: #c2e812;
 }
 
 /* Custom Classes */
@@ -86,4 +95,12 @@ h6 {
 
 .showcase {
   max-height: 450px;
+}
+
+/* Custom IDs */
+
+#header {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
