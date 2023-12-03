@@ -10,11 +10,13 @@
   --bs-body-bg: #f5f4fc;
   --bs-light-rgb: 255, 255, 255;
   --bg-light: #ffffff;
-  --bs-dark-rgb: 46, 40, 42;
+  --bs-dark-rgb: 4, 8, 15;
   --bs-primary-rgb: 103, 63, 205;
   --bs-info-rgb: 194, 232, 18;
 
 }
+
+/* Fonts */
 
 body {
   font-family: var(--bodyFont);
@@ -25,7 +27,8 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+.heading {
   font-family: var(--headingFont);
 }
 
@@ -68,11 +71,11 @@ h6 {
   --bs-btn-disabled-border-color: #c2e812;
 }
 
-/* Custom Classes */
-
-.heading {
-  font-family: var(--headingFont);
+.sticky-top {
+  top: 25px;
 }
+
+/* Custom Classes */
 
 .ls {
   letter-spacing: 2px;
@@ -95,12 +98,4 @@ h6 {
 
 .showcase {
   max-height: 450px;
-}
-
-/* Custom IDs */
-
-#header {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 }
