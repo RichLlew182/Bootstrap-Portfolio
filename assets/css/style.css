@@ -66,3 +66,13 @@ h2 {
 .ls {
   letter-spacing: 2px;
 }
+
+.explainer {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.portfolio-image {
+  height: 250px
+}
