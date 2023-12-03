@@ -100,6 +100,16 @@ h6,
   height: 250px
 }
 
+.portfolio-link {
+  -webkit-transition: ease .3s;
+  -o-transition: ease .3s;
+  transition: ease .3s;
+}
+
+.portfolio-link:hover {
+  opacity: .85;
+}
+
 .invert-100 {
   -webkit-filter: invert(1);
   filter: invert(1)
